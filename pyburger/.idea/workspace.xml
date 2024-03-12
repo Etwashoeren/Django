@@ -5,11 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e2ac7af3-61fe-4700-b777-644171ff1498" name="변경" comment="">
-      <change afterPath="$PROJECT_DIR$/../HelloWorld/.idea/HelloWorld.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HelloWorld/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HelloWorld/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/burger_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/burger_list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/main.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +48,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "com.jetbrains.python.templateLanguages.PyTemplateLanguageModulesConfigurable",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -69,6 +69,18 @@
       <updated>1709796485054</updated>
       <workItem from="1709796486556" duration="414000" />
       <workItem from="1709797058713" duration="526000" />
+      <workItem from="1709797588096" duration="607000" />
+      <workItem from="1709817195492" duration="7636000" />
+      <workItem from="1709865446961" duration="652000" />
+      <workItem from="1709884296239" duration="528000" />
+      <workItem from="1709887954630" duration="169000" />
+      <workItem from="1709953667521" duration="18000" />
+      <workItem from="1709953700175" duration="8000" />
+      <workItem from="1709953805832" duration="620000" />
+      <workItem from="1709995443039" duration="11000" />
+      <workItem from="1710076299073" duration="6000" />
+      <workItem from="1710184314921" duration="87000" />
+      <workItem from="1710184543152" duration="20000" />
     </task>
     <servers />
   </component>

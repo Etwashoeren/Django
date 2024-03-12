@@ -18,10 +18,11 @@ from django.contrib import admin
 from django.urls import path
 
 # burger_list 함수를 추가적으로 import
-from config.views import main, burger_list
+from config.views import main, burger_list, burger_search
 
 urlpatterns = [
     path("admin/", admin.site.urls),
     path("", main), # 공백(아무것도 입력하지 않은 경로)과 main 함수를 연결
     path("burgers/", burger_list),
+    path("search/", burger_search),
 ]
