@@ -7,6 +7,14 @@
             <li>
                 <h2>{{ post.title }}</h2>
                 <p>{{ post.content }}</p>
+                <ul>
+                    {% for comment in post.comment_set.all %}
+                        <li>{{comment.content }}</li>
+                    {% empty %} <!-- post.comment_set.all에 순회할 항목이 없는 경우 -->
+                        <li>아직 댓글이 없습니다</li>
+                    {% endfor %}
+                </ul>
+
             </li>
         {% endfor %}
     </ul>
