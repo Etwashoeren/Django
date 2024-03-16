@@ -21,6 +21,11 @@
                             <li class="comment">아직 댓글이 없습니다</li>
                         {% endfor %}
                     </ul>
+                    {% if post.thumbnail %}
+                        <img src="{{ post.thumbnail.url }}" alt="">
+                    {% else %}
+                        <img src="" alt="">
+                    {% endif %}
                 </li>
             {% endfor %}
         </ul>
