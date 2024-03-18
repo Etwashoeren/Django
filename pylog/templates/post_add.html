@@ -5,7 +5,10 @@
     <link rel="stylesheet" href="{% static 'css/style.css' %}">
 </head>
 <body>
-    <div>
+    <div id="navbar">
+        <span>글 작성</span>
+    </div>
+    <div id="post-add">
         <h1>Post Add</h1>
         <form method="POST">
             {% csrf_token %}
@@ -17,7 +20,7 @@
                 <label>내용</label>
                 <textarea name="content" cols="50" rows="10"></textarea>
             </div>
-            <button type="submit">작성</button>
+            <button type="submit" class="btn btn-primary">작성</button>
         </form>
     </div>
 </body>
