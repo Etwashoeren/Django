@@ -6,7 +6,7 @@
 </head>
 <body>
     <div id="navbar">
-        <span>pylog</span>
+        <span><a href="/posts">pylog</a></span>
         <a href="/posts/add/" class="btn btn-primary">글 작성</a>
     </div>
     <div id="post-list">
@@ -16,7 +16,7 @@
                     <div>
                         <a href="/posts/{{ post.id }}/">{{ post.title }}</a>
                     </div>
-                    <p>{{ post.content }}</p>
+                    <p><a href="/posts/{{ post.id }}/">{{ post.content }}</a></p>
                     <ul class="comments">
                         {% for comment in post.comment_set.all %}
                             <li class="comment">{{comment.content }}</li>
@@ -25,7 +25,9 @@
                         {% endfor %}
                     </ul>
                     {% if post.thumbnail %}
+                        <a href="/posts/{{ post.id }}/">
                         <img src="{{ post.thumbnail.url }}" alt="">
+                        </a>
                     {% else %}
                         <img src="" alt="">
                     {% endif %}
